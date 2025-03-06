@@ -5,7 +5,7 @@ import { fadeIn } from '../../framerMotion/varients'
 
 const ExperienceMain = () => {
     return (
-        <div id="experience" className="max-w-[1200px] mx-auto flex flex-col gap-16">
+        <div id="experience" className="max-w-[1200px] mx-auto flex flex-col gap-6 lg:gap-16">
 
         <motion.div
                 variants={fadeIn("down", 0)}
@@ -16,16 +16,16 @@ const ExperienceMain = () => {
                 <ExperienceText />
         </motion.div>
         
-        <div className="flex xl:flex-row flex-col items-center justify-around gap-10">
+        <div className="flex xl:flex-row flex-col items-center justify-around gap-6 lg:gap-16">
             <AllExperiences />
 
             <motion.div
-                variants={fadeIn("down", 0.5)}
+                variants={fadeIn("left", 0.5)}
                 initial="hidden"
                 whileInView="show"
                 viewport={{ once: false, amount: 0 }}
                 >
-                    <img src="images/experience_gif.gif" alt="my experience" className="rounded-4xl h-60 lg:h-[30rem] w-[30rem] bg-transparent"/>
+                    <img src="images/experience_gif.gif" alt="my experience" className="rounded-4xl h-60 lg:h-[30rem] lg:w-[30rem] bg-transparent"/>
             </motion.div>
 
         </div>

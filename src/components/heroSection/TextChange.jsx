@@ -40,7 +40,7 @@ const Textchange = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }} 
-        className="textChange lg:text-2xl text-md font-semibold uppercase text-green-300">
+        className="textChange lg:text-2xl text-md font-semibold uppercase">
         {currText}
         </motion.div>
     );

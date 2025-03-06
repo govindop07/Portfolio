@@ -11,14 +11,14 @@ function HeroText() {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }} 
-        className='md:text-[2.8rem] lg:text-6xl text-3xl font-bold text-orange-300'> Govind Upadhyay</motion.h1>
+        className='md:text-[2.8rem] lg:text-6xl text-3xl font-bold text-green-400'> Govind Upadhyay</motion.h1>
 
         <motion.p 
         variants={fadeIn("up", 0.6)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className='text-lg mt-4'>A Passionate Web Developer. Leveraging best practices to create scalable and maintainable
+        className='text-lg mt-4 '>A Passionate Web Developer. Leveraging best practices to create scalable and maintainable
         solutions.
         </motion.p>
     </div>
