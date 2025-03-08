@@ -6,9 +6,9 @@ import { fadeIn } from '../../framerMotion/varients'
 
 const experiences = [
   {
-    job: "High School",
-    company: "SVM, Vrindavan",
-    date: "2019-2020",
+    job: "B.Tech",
+    company: "GlA University",
+    date: "2022-2026",
   },
   {
     job: "Intermediate",
@@ -16,9 +16,9 @@ const experiences = [
     date: "2021-2022",
   },
   {
-    job: "B.Tech",
-    company: "GlA University",
-    date: "2022-2026",
+    job: "High School",
+    company: "SVM, Vrindavan",
+    date: "2019-2020",
   },
 ];
 
@@ -36,7 +36,6 @@ const AllExperiences = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
               >
-                <FaLongArrowAltDown className="text-6xl text-orange-400 lg:block hidden" />
               </motion.div>
             ) : (
               ""
