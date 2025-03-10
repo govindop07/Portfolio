@@ -6,7 +6,7 @@ import { fadeIn } from '../../framerMotion/varients'
 
 
 const AboutMeMain = () => {
-    return <div id='about' className='max-w-[90%] flex lg:flex-row flex-col gap-20 px-4 w-full mx-auto mb-20 mt-[100px] justify-between items-center'>
+    return <div id='about' className='max-w-[80%] flex lg:flex-row flex-col gap-20 px-4 w-full mx-auto mb-20 mt-[100px] justify-between items-center'>
         <motion.div 
         variants={fadeIn("right", 0.2)}
         initial="hidden"

@@ -21,6 +21,16 @@ function HeroText() {
         className='text-lg mt-4 '>A Passionate Web Developer. Leveraging best practices to create scalable and maintainable
         solutions.
         </motion.p>
+
+        <motion.a
+        variants={fadeIn("up", 0.6)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0 }}
+        href="https://drive.google.com/file/d/18Rde8K4wS6Vb_6Jpe7cFVDIITP187ZR7/view?usp=drive_link">
+            <button className='text-center bg-green-900 w-45 h-10 rounded-full font-semibold hover:cursor-pointer hover:scale-120 transition-all duration-500'>
+            Download Resume</button>
+        </motion.a>
     </div>
 }
 

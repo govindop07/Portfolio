@@ -6,6 +6,9 @@ import { FaCss3Alt } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
+import SingleSkill from './SingleSkill';
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../framerMotion/varients'
 
@@ -40,8 +43,12 @@ const skills = [
     icon: SiMongodb
 },
 {
+    skill: "SQL",
+    icon: TbSql
+},
+{
     skill: "TailwindCSS",
-    icon: SiExpress
+    icon: SiTailwindcss
 }
 ];
 
