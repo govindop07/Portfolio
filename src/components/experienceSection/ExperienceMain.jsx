@@ -11,7 +11,7 @@ const ExperienceMain = () => {
                 variants={fadeIn("down", 0)}
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: false, amount: 0.7 }}
+                viewport={{ once: true, amount: 0.7 }}
                 >
                 <ExperienceText />
         </motion.div>
@@ -23,7 +23,7 @@ const ExperienceMain = () => {
                 variants={fadeIn("left", 0.5)}
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: false, amount: 0 }}
+                viewport={{ once: true, amount: 0 }}
                 >
                     <img src="images/experience_gif.gif" alt="my experience" className="rounded-4xl h-60 lg:h-[30rem] lg:w-[30rem] bg-transparent"/>
             </motion.div>

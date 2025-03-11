@@ -11,7 +11,7 @@ const ContactMeMain = () => {
       variants={fadeIn("down", 0.2)}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.7 }}
+      viewport={{ once: true, amount: 0.7 }}
       className='text-6xl text-green-400 mb-10 text-center'>Contact Me</motion.h2>
 
       <div className='flex justify-center gap-24 w-[90%] bg-gray-800 p-8 rounded-2xl lg:flex-row flex-col'>

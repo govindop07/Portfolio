@@ -7,7 +7,7 @@ const SingleExperience = ({ experience }) => {
         variants={fadeIn("down", 0)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.7 }}
         className="md:w-[240px] h-auto w-full rounded-2xl  p-4 gap-2 flex flex-col"
         >
         <p className="text-gray-400">{experience.date}</p>

@@ -18,8 +18,10 @@ const SingleProject = ({ name, year, align, image, link }) => {
         </a>
     </div>
         <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border">
-            <div className="w-full h-full bg-green-300 opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block hidden"></div>
-            <img src={image} alt="website image" className="w-full h-full" />
+            <a href={link} className="cursor-pointer">
+            <div className="w-full h-full bg-green-300 opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block hidden cursor-pointer"></div>
+                <img src={image} alt="website image" className="w-full h-full " />
+            </a>
         </div>
     </div>
 };

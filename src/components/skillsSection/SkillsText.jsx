@@ -8,7 +8,7 @@ const SkillsText = () => {
     variants={fadeIn("down", 0.2)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: true, amount: 0.7 }}
         className='flex flex-col items-center mt-[100px]'>
         <h2 className='text-6xl text-green-400 mb-10'>My Skills</h2>
         <p className='text-lg text-center mb-20'>

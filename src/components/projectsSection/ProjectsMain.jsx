@@ -7,18 +7,18 @@ import { fadeIn } from '../../framerMotion/varients'
 
 const projects = [
 {
-    name: "Portfolio Website",
-    year: "November 2024",
+    name: "Chat App",
+    year: "March 2025",
     align: "right",
-    image: "images/project-1.png",
-    link: "https://govind-folio.netlify.app/",
+    image: "images/chat-app.png",
+    link: "https://vaartalap-sdyd.onrender.com/",
 },
 {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Portfolio Website",
+    year: "November 2024",
     align: "left",
-    image: "images/website-img-2.webp",
-    link: "#",
+    image: "images/project-1.png",
+    link: "https://govind-folio.netlify.app/",
 },
 {
     name: "Tourzania",
@@ -45,7 +45,7 @@ const ProjectsMain = () => {
                 variants={fadeIn(`${item.align}`, 0.2)}
                 initial="hidden"
                 whileInView="show"
-                viewport={{ once: false, amount: 0.7 }}
+                viewport={{ once: true, amount: 0.7 }}
                 >
                     <SingleProject 
                     key={index} 

@@ -39,7 +39,7 @@ const Textchange = () => {
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: false, amount: 0 }} 
+        viewport={{ once: true, amount: 0 }} 
         className="textChange lg:text-2xl text-md font-semibold uppercase">
         {currText}
         </motion.div>
