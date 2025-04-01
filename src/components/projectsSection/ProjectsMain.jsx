@@ -7,32 +7,25 @@ import { fadeIn } from '../../framerMotion/varients'
 
 const projects = [
 {
-    name: "Chat App",
+    name: "Real estate listing site",
     year: "March 2025",
     align: "right",
+    image: "images/listing.png",
+    link: "https://github.com/govindop07/Grahasti",
+},
+{
+    name: "Chat App",
+    year: "March 2025",
+    align: "left",
     image: "images/chat-app.png",
     link: "https://vaartalap-sdyd.onrender.com/",
 },
 {
     name: "Portfolio Website",
     year: "November 2024",
-    align: "left",
+    align: "right",
     image: "images/project-1.png",
     link: "https://govind-folio.netlify.app/",
-},
-{
-    name: "Tourzania",
-    year: "Jan2023",
-    align: "right",
-    image: "images/website-img-3.jpg",
-    link: "#",
-},
-{
-    name: "Bank of Luck",
-    year: "May2024",
-    align: "left",
-    image: "images/website-img-4.jpg",
-    link: "#",
 },
 ];
 
