@@ -1,6 +1,5 @@
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../framerMotion/varients'
-import { BsCircle } from "react-icons/bs";
 
 const HeroPic = () => {
     return (
