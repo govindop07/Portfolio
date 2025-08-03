@@ -14,7 +14,7 @@ function NavbarMain() {
 
     return (
         <nav className='flex justify-between fixed z-20 left-6 top-0 gap-4 w-[90%] sm:w-full mx-auto'>
-            <div className='mx-auto w-full max-w-[90%] lg:py-4 hidden lg:flex items-center justify-around   border-white rounded-full bg-black'>
+            <div className='mx-auto w-full max-w-[90%] lg:py-4 hidden lg:flex items-center justify-around border-white rounded-full bg-black/30 backdrop-blur-md'>
                 <NavbarLogo />
                 <div className={`${menuOpen? 'sm:block': 'hidden'} lg:block`}>
                     <NavbarLinks />
