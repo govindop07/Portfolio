@@ -7,18 +7,28 @@ import { fadeIn } from '../../framerMotion/varients'
 
 const projects = [
 {
-    name: "Real estate listing site",
-    year: "March 2025",
-    align: "right",
-    image: "images/listing.png",
-    link: "https://github.com/govindop07/Grahasti",
+    name: "E-commerce application",
+    year: "July 2025",
+    align: "left",
+    image: "images/project-ecomet.png",
+    link: "https://ecomet.vercel.app/",
+    git: "https://github.com/govindop07/ecomet"
 },
 {
     name: "Chat App",
     year: "March 2025",
-    align: "left",
+    align: "right",
     image: "images/chat-app.png",
     link: "https://vaartalap-sdyd.onrender.com/",
+    git: "https://github.com/govindop07/Vaartalap"
+},
+{
+    name: "Real estate listing site",
+    year: "March 2025",
+    align: "left",
+    image: "images/listing.png",
+    link: "https://github.com/govindop07/Grahasti",
+    git: "https://github.com/govindop07/Grahasti"
 },
 {
     name: "Portfolio Website",
@@ -26,6 +36,7 @@ const projects = [
     align: "right",
     image: "images/project-1.png",
     link: "https://govind-folio.netlify.app/",
+    git: "https://github.com/govindop07/Portfolio"
 },
 ];
 
@@ -46,7 +57,8 @@ const ProjectsMain = () => {
                     year={item.year} 
                     align={item.align} 
                     image={item.image} 
-                    link={item.link} />
+                    link={item.link}
+                    git={item.git} />
                 </motion.div>
             })
             }
