@@ -9,6 +9,7 @@ const SingleProject = ({ name, year, align, image, link, git }) => {
         {year}
         </h2>
         <a
+        target={link}
         href={link}
         className={`text-lg flex gap-2 items-center text-green-400 hover:text-orange-400 transition-all duration-500 cursor-pointer justify-self-center ${
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
@@ -18,6 +19,7 @@ const SingleProject = ({ name, year, align, image, link, git }) => {
         </a>
         <a
         href={git}
+        target={git}
         className={`text-lg flex gap-2 items-center text-green-400 hover:text-orange-400 transition-all duration-500 cursor-pointer justify-self-center ${
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
             }`}
