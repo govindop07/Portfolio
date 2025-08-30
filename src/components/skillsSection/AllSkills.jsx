@@ -8,6 +8,7 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
 import { SiTailwindcss } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
 import SingleSkill from './SingleSkill';
 import {motion} from 'framer-motion'
 import { fadeIn } from '../../framerMotion/varients'
@@ -49,6 +50,10 @@ const skills = [
 {
     skill: "TailwindCSS",
     icon: SiTailwindcss
+},
+{
+    skill: "Next-js",
+    icon: SiNextdotjs
 }
 ];
 
