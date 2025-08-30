@@ -28,7 +28,7 @@ const SingleProject = ({ name, year, align, image, link, git }) => {
         </a>
     </div>
         <div className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden hover:scale-110 transform transition-all duration-500 ralative border">
-            <a href={link} className="cursor-pointer">
+            <a href={link} target={ilnk} className="cursor-pointer">
             <div className="w-full h-full bg-green-300 opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block hidden cursor-pointer"></div>
                 <img src={image} alt="website image" className="w-full h-full " />
             </a>
